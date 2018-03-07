@@ -1,14 +1,21 @@
 {
-  "name": "light-Jekyll-search",
+  "name": "light-jekyll-search",
   "homepage": "https://github.com/webhacking/light-Jekyll-search",
   "authors": [
     "webhacking <a@hax0r.info>"
   ],
   "description": "The Stunningly Fast Jekyll Search Library",
-  "main": "scripts/light-jekyll-search.js",
+  "main": "scripts",
   "keywords": [
-    "Jekyll",
+    "jekyll",
     "search"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
